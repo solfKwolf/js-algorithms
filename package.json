@@ -1,0 +1,30 @@
+{
+  "name": "js-algorithms",
+  "version": "0.0.1",
+  "description": "Algorithm of notes (javaScript)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/solfKwolf/js-algorithms.git"
+  },
+  "keywords": [
+    "algorithm",
+    "data",
+    "structure"
+  ],
+  "author": "solfKwolf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/solfKwolf/js-algorithms/issues"
+  },
+  "homepage": "https://github.com/solfKwolf/js-algorithms#readme",
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "babel-jest": "^27.4.2",
+    "jest": "^27.4.3"
+  }
+}
