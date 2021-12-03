@@ -4,6 +4,7 @@
   "description": "Algorithm of notes (javaScript)",
   "main": "index.js",
   "scripts": {
+    "prepare": "husky install",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -25,6 +26,7 @@
     "@babel/core": "^7.16.0",
     "@babel/preset-env": "^7.16.4",
     "babel-jest": "^27.4.2",
+    "husky": "^7.0.4",
     "jest": "^27.4.3"
   }
 }
