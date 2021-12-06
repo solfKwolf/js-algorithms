@@ -1,4 +1,4 @@
-import LinkedListNode from "./LinkedListNode";
+import LinkedListNode from './LinkedListNode';
 
 export default class LinkedList {
   constructor() {
@@ -40,9 +40,7 @@ export default class LinkedList {
 
   toString(callback) {
     return this.toArray()
-      .map((node) => {
-        node.toString(callback);
-      })
+      .map((node) => node.toString(callback))
       .toString();
   }
 }

@@ -1,12 +1,12 @@
-import LinkedList from "../LinkedList";
+import LinkedList from '../LinkedList';
 
-describe("LinkList", () => {
-  it("should create empty linked list", () => {
+describe('LinkList', () => {
+  it('should create empty linked list', () => {
     const linkedList = new LinkedList();
-    expect(linkedList.toString()).toBe("");
+    expect(linkedList.toString()).toBe('');
   });
 
-  it("should append node to linked list", () => {
+  it('should append node to linked list', () => {
     const linkedList = new LinkedList();
 
     expect(linkedList.head).toBeNull();
