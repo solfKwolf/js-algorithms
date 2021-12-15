@@ -20,6 +20,8 @@ export default function interpolationSearch(sortedArray, seekElement) {
     if (valueDelta < 0) {
       return -1;
     }
+
+    // 当数组元素长度为1时
     if (!rangeDelta) {
       return sortedArray[leftIndex] === seekElement ? leftIndex : -1;
     }
